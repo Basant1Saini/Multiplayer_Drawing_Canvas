@@ -1,0 +1,25 @@
+{
+  "name": "multiplayer-drawing-canvas-server",
+  "version": "1.0.0",
+  "description": "Backend server for multiplayer drawing canvas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4",
+    "mongoose": "^8.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "eslint": "^8.55.0"
+  },
+  "keywords": ["multiplayer", "drawing", "canvas", "socket.io", "express"],
+  "author": "",
+  "license": "MIT"
+}
